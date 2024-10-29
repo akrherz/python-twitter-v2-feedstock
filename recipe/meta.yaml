@@ -1,5 +1,5 @@
 {% set name = "python-twitter-v2" %}
-{% set version = "0.9.1" %}
+{% set version = "0.9.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python_twitter_v2-{{ version }}.tar.gz
-  sha256: 4fc88c5d3fc593ada134b16604ebf7a896379fee7694b5956cc460af3435f247
+  sha256: dcd41ebfbc1b0ca6a1212870b0ff68b85e2111655e09027a0e42829fe3a63460
 
 build:
   noarch: python
